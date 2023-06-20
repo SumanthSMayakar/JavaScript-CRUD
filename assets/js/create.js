@@ -49,7 +49,7 @@ function createUser(user) {
         users.push(user);
         localStorage.setItem("userInfo", JSON.stringify(users));
         alert('new user created successfully');
-        window.location.href = "/CRUD/index.html";
+        window.location.href = "/index.html";
     }
 };
 

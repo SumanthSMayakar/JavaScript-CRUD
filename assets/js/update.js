@@ -60,5 +60,5 @@ function updateUser(data) {
     // users.push(data)
     localStorage.setItem('userInfo', JSON.stringify(users));
     alert('user data updated successfully');
-    window.location.href = '/CRUD/index.html';
+    window.location.href = '/index.html';
 }
